@@ -2,8 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>About Me - My Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>About Me </title>
+  <style>
+.flex-container {
+  display: flex;}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 0px;
+  padding: 140px;
+  font-size: 20px;
+  width: 100px;
+
+}
+</style>
 </head>
 <body>
   <header>
@@ -12,10 +24,7 @@
 
   <nav>
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About Me</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
+           <!--create the nav bar in nextime-->
     </ul>
   </nav>
 
@@ -23,8 +32,35 @@
     <p>Hello! I'm Mohit Patel a passionate web developer with an interest in building clean and responsive websites. I'm learning HTML, CSS, and JavaScript. I love turning ideas into reality in the browser!</p>
   </main>
 
+  
+    <ul>
+        <li>
+            Frontend: HTML5, CSS3, JavaScript (ES6+), React.js, Vue.js, Tailwind CSS, Bootstrap</li>
+    <li>Backend: Node.js, Express.js, Django, Python, PH</li>
+    <li>Databases: MongoDB, MySQL, PostgreSQL, Firebase</li>
+    <li>Version Control & DevOps: Git, GitHub, Docker, Heroku, Netlify</li>
+    </ul>
+    <h2>Projects</h2>
+    <ul>
+        <li>Amazone clone</li>
+        <li>Spotify clone</li>
+        <li>Todo App</li>
+        <li>Clothing Website</li>
+        <li>FoodyClub</li>
+    </ul>
+
+    <li><a href="Home/Home.html">Home</a></li>
+      <hr>
+   
   <footer>
-    <p>© 2025 Mohit patel</p>
+    <div class="flex-container">
+      
+   <div>Home</div>
+  <div>About</div>
+  <div>Project</div>
+  <div>contact</div>  
+</div>
   </footer>
+  <h4> © 2025 Mohit patel</h4>
 </body>
 </html>
